@@ -7,19 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.txt{
-    font-size: 1.6em;
-}
-
-q{
-    color: #000000;
-    font-style: italic;
-}
-
-.auteur{
-    color: #000000;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -29,6 +16,15 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+h1{
+    font-size: 1.57em;
+    line-height: 1.50em;
+}
+
+#noir{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #page-loading-blocs-notifaction {
@@ -103,10 +99,14 @@ a:hover {
     right: 0;
 }
 
+.bloc-plus-noir{
+    background-color: black;
+    opacity: 0.8em;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    background-color: #493c35;
 }
 
 .b-parallax {
@@ -691,7 +691,19 @@ a {
 }
 
 p {
-    font-size: 1em;
+    font-size: 0.8em;
+}
+
+
+q{
+    font-size: 1.4em;
+    font-style: italic;
+    color: rgb(87, 87, 87);
+}
+
+#auteur{
+    color: rgb(87, 87, 87);
+    font-style: regular !important;
 }
 
 .tight-width-whitespace {
@@ -862,17 +874,17 @@ h4 {
     }
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-} */
+}
 
-/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
-} */
+}
 
 @media (max-width: 991px) {
     .container {
@@ -886,21 +898,21 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
+    .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    } */
+    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    /* .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    } */
+    }
 }
 
 @media (max-width: 767px) {
