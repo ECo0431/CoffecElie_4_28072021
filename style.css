@@ -23,6 +23,10 @@ h1{
     line-height: 1.50em;
 }
 
+.txt{
+    font-size: 1.5em;
+}
+
 #noir{
     background-color: rgba(0, 0, 0, 0.7);
 }
