@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.txt{
+    font-size: 1.6em;
+}
+
+q{
+    color: #000000;
+    font-style: italic;
+}
+
+.auteur{
+    color: #000000;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -93,6 +106,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: #493c35;
 }
 
 .b-parallax {
@@ -677,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
