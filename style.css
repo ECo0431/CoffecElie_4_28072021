@@ -103,11 +103,6 @@ h1{
     right: 0;
 }
 
-.bloc-plus-noir{
-    background-color: black;
-    opacity: 0.8em;
-}
-
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -707,7 +702,6 @@ q{
 
 #auteur{
     color: rgb(87, 87, 87);
-    font-style: regular !important;
 }
 
 .tight-width-whitespace {
@@ -884,13 +878,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -917,14 +911,14 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-}
+} */
 
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    /* h1,
     h2,
     h3,
     h4,
@@ -934,7 +928,7 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
+    } */
     .b-parallax {
         background-attachment: scroll;
     }
